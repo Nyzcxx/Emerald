@@ -4,10 +4,6 @@ compatibility_date = "2023-05-26"
 node_compat = true
 workers_dev = true
 
-routes = [
-  { pattern = "egypo.my.id/*" },
-]
-
 [vars]
 PROXYIP = "172.67.5.14:443"
 UUID = "6f361a6f-318e-49cd-b71e-1e8d568b9888"
