@@ -4,8 +4,9 @@ compatibility_date = "2023-05-26"
 node_compat = true
 workers_dev = true
 
-[[routes]]
-pattern = "egypo.my.id"
+routes = [
+  { pattern = "egypo.my.id/*" },
+]
 
 [vars]
 PROXYIP = "172.67.5.14:443"
